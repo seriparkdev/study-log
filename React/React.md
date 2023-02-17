@@ -2,19 +2,27 @@
 
 JSX란 자바스크립트 파일 내에서 HTML을 작성할 수 있도록 자바스크립트를 확장한 문법
 
+<br>
+
 ## 마운트란?
 
 리액트 컴포넌트가 생성되고 DOM에 삽입되어 브라우저에 나타나는 것을 의미
 
+<br>
+
 ## 언마운트란?
 
 언마운트는 컴포넌트가 DOM에서 사라지는 것을 의미
+
+<br>
 
 ## virtual DOM
 
 DOM이나 CSSOM이 수정될 때마다 CRP 과정을 반복하는데 이는 성능의 저하를 일으킬 수 있음. 그래서 리액트는 VritualDOM을 도입해 변화(UI에)가 생겼을 때마다 DOM 조작을 매번하는 것이 아니라, 이전 VirtualDOM과 새로운 virtualDOM을 비교해서 실제로 변경된 부분만 DOM에 적용한다.
 
 > VirtualDOM이란 리액트가 관리하는 DOM과 유사한 객체이다.
+
+<br>
 
 ## 제어 컴포넌트 / 비제어 컴포넌트
 
@@ -24,6 +32,8 @@ DOM이나 CSSOM이 수정될 때마다 CRP 과정을 반복하는데 이는 성�
   폼의 값들을 얻을 때 `ref`를 사용하는 것을 말한다. input의 입력 값이 변경되어도 리렌더링 되지 않음.
 
 > form submit 할 때 ref에 등록된 값을 읽어오는 방법
+
+<br>
 
 ## 리액트의 라이프사이클
 
@@ -57,13 +67,19 @@ props나 state에 의해 업데이트가 일어난다. 컴포넌트가 리렌더
 1. `componentWillUnmount()`
    : 컴포넌트가 언마운트되고 소멸되기 직전에 호출된다. 타이머나 비동기 API를 제거한다.
 
+<br>
+
 ## 리렌더링의 조건
 
 - props나 state의 변경
 
+<br>
+
 ## useEffect와 라이프사이클
 
 useEffect는 `componentDidMount`, `componentDidUpdate()`, `componentWillUnmount()`의 합이다. 함수형 컴포넌트에서는 useEffect를 이용해서 라이프 사이클을 관리할 수 있다.
+
+<br>
 
 ## props와 state의 차이
 
