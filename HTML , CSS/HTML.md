@@ -1,3 +1,29 @@
+# node.js
+
+브라우저 밖에서도 자바스크립트를 실행할 수 있는 환경
+
+# NPM(Node Package Manager)
+
+자바스크립트 라이브러리를 설치하고 관리할 수 있는 패키지 매니저
+
+=> `npm init`: package.json 생성
+
+CDN 방식으로 라이브러리를 HTML 중간에 삽입하는 방식은 버전 관리, 라이브러리 의존성 관리가 어렵습니다. 태그를 매번 찾아야 하는 번거로움도 있는데 이를 해결해주는 것이 NPM입니다.
+
+# AMD & Common.js
+
+- Common.js : (require, module exports)
+- AMD: 비동기 모듈에 대한 표준안. 모듈이 로딩될 때까지 기다리지 않는 비동기 모듈 방식. (define, require)
+
+전역적으로 범위를 갖는 자바스크립트의 특성상 어느 위치에서든지 어떤 변수를 참조할 수 있다면 위험성이 커질 것이다. 이를 위해 이러한 모듈화가 필요한 것.
+
+# ES6 Modules
+
+자바스크립트 코드를 모듈화(다른 파일에 있는 자바스크립트 기능을 특정 파일에서 사용) 가능
+
+- `import` : export 된 변수나 함수를 가져올 수 있음
+- `export` : 다른 파일에서 가져다 쓸 함수, 변수에 사용
+
 # WAI-ARIA
 
 ## role
@@ -116,3 +142,12 @@ treeitem`
   >
 </p>
 ```
+
+- 숨겨진 텍스트도 참조 됨
+- textfield. input(type="text")요소의 값도 참조 됨
+
+4.  label 엘리먼트로 폼 컨트롤 이름 지정
+5.  legend 엘리먼트로 필드셋 이름 지정
+6.  캡션으로 표 및 삽화 이름 지정
+
+: table 엘리먼트가 aria-label나 aria-labelledby를 가지지 않은 경우, caption을 접근 가능한 이름으로 사용 / table이 aria-label나 aria-labelledby를 사용하여 이름이 지정되고, caption 엘리먼트가 있다면 이는 접근 가능한 설명으로 사용
