@@ -151,3 +151,5 @@ treeitem`
 6.  캡션으로 표 및 삽화 이름 지정
 
 : table 엘리먼트가 aria-label나 aria-labelledby를 가지지 않은 경우, caption을 접근 가능한 이름으로 사용 / table이 aria-label나 aria-labelledby를 사용하여 이름이 지정되고, caption 엘리먼트가 있다면 이는 접근 가능한 설명으로 사용
+
+---
