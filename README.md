@@ -10,7 +10,7 @@
 
 ### [<img src="https://blog.kakaocdn.net/dn/9ZCsE/btqFp43DyIM/c7KHGrjY8OI3bYZvyQeej0/img.png" width="30px"> HTML](https://github.com/seriparkdev/study-log/blob/main/HTML%20%2C%20CSS/HTML.md)
 
-### [<img src="https://codedosa.com/wp-content/uploads/2021/03/Git_logo_2-color.png" width="30px">](https://github.com/seriparkdev/study-log/blob/main/Git/Git.md)
+### [<img src="https://codedosa.com/wp-content/uploads/2021/03/Git_logo_2-color.png" width="30px"> GIT](https://github.com/seriparkdev/study-log/blob/main/Git/Git.md)
 
 ## else
 
